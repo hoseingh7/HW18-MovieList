@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background-color: black; */
 }
 
 .App-logo {
@@ -27,12 +28,17 @@
 .App-link {
   color: #61dafb;
 }
+.header-btn {
+  margin-top: 5%;
+  display: flex;
+  /* align-items: center; */
+  width: auto;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  justify-content: center;
+  gap: 250px;
+}
+@media (max-width: 450px) {
+  .header-btn {
+    gap: 120px;
   }
 }
